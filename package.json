@@ -7,6 +7,16 @@
     "url": "https://github.com/buddye/postcss-remove-important",
     "type": "git"
   },
+  "dependencies": {
+      "postcss": "^6.0.1"
+    },
+  "homepage": "https://github.com/ben-eb/postcss-discard-comments",
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "private": false,
   "author": "BuddyE <eb@ahhrobot.com>",
   "license": "MIT"
 }
