@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/Cellar/node/10.4.1/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js publish
+
+PATH: 
+  /Users/eb/.pyenv/shims:/Users/eb/.rbenv/shims:/Users/eb/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.4.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:131036:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:422:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+
+npm manifest: 
+  {
+    "name": "@buddye/postcss-remove-important",
+    "version": "1.0.1",
+    "description": "PostCSS cleanup plugin to strip !important for AMP compatible CSS",
+    "main": "postcss-remove-important.js",
+    "repository": {
+      "url": "https://github.com/buddye/postcss-remove-important",
+      "type": "git"
+    },
+    "dependencies": {
+        "postcss": "^6.0.1"
+      },
+    "homepage": "https://github.com/ben-eb/postcss-discard-comments",
+    "keywords": [
+      "css",
+      "postcss",
+      "postcss-plugin"
+    ],
+    "private": false,
+    "author": "BuddyE <eb@ahhrobot.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
