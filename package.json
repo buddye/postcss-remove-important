@@ -1,6 +1,6 @@
 {
   "name": "@buddye/postcss-remove-important",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PostCSS cleanup plugin to strip !important for AMP compatible CSS",
   "main": "postcss-remove-important.js",
   "repository": {
