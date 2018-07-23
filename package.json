@@ -10,7 +10,7 @@
   "dependencies": {
     "postcss": "^6.0.1"
   },
-  "homepage": "https://github.com/ben-eb/postcss-discard-comments",
+  "homepage": "https://github.com/buddye/postcss-remove-important",
   "keywords": [
     "css",
     "postcss",
